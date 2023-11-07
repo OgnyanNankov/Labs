@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1>Registration form</h1>
+    <form action="../pages/registration.py" method="get">
+        <div>Име: <input type="text" name="UserName" autocomplete="on" autofocus value="Anonimous"></div>
+        <div>Парола: <input type="password" name="pass" placeholder="password"></div>
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+    <div> Text type: <input type="text"></div>
+    <br>
+    <div> Pass type: <input type="password"></div>
+    <br>
+    <div> Checkbox: <input type="checkbox"></div>
+    <br>
+    <div> Radio: <input type="radio"></div>
+    <br>
+    <div> File: <input type="file"></div>
+    <br>
+    <div> Color: <input type="color"></div>
+    <br>
+    <div> Submit button: <input type="submit"></div>
+    <br>
+    <div> Reset button: <input type="reset"></div>
+    <br>
+    <div> Number: <input type="number"></div>
+    <br>
+    <div> Tel. <input type="tel"></div>
+    <hr>
+    <div>Име: <input type="text" name="UserName"></div>
+    <div>Gender:
+        <b>male</b><input type="radio" name="Gender" value="male">
+        <b>female</b><input type="radio" name="Gender" value="female">
+        <b>other</b><input type="radio" name="Gender" value="other">
+    </div>
+    <!-- name атрибутът трябва да е един и същ за всички опции 
+    за да не можем да изберем повече от една наведнъж -->
+    <div> Submit button: <input type="submit"></div>
+    <hr>
+    <form action="../pages/registration.py" method="get">
+        <h1>Favourites</h1>
+        <div>
+            Color:
+            red: <input type="checkbox" name="Color" value="red">
+            green: <input type="checkbox" name="Color" value="green">
+            blue: <input type="checkbox" name="Color" value="blue">
+        </div>
+        <input type="submit"></div>
+    </form>
+    <hr>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button">Click</button>
+    <hr>
+    <h1>Label</h1>
+    <div>Gender:
+        <label for="male">male</label><input id="male" type="radio" name="Gender" value="male">
+        <label for="female">female</label><input id="female" type="radio" name="Gender" value="female">
+        <label for="other">other</label><input id="other" type="radio" name="Gender" value="other">
+    </div>
+    <!-- Цъкаме на текста и маркира кръгчето. Няма нужда да го натискаме. -->
+    <!-- Може и като примера отдолу -->
+    <label>male<input id="male" type="radio" name="Gender" value="male"></label>
+    <hr>
+    <h1>Legent and Fieldset</h1>
+    <form action="">
+        <fieldset>
+            <legend>Question 1</legend>
+            <label>A: <input type="radio"></label>
+            <label>B: <input type="radio"></label>
+            <label>C: <input type="radio"></label>
+        </fieldset>
+    </form>
+    <hr>
+    <h1>Multiselect - Drop-down</h1>
+    <fieldset>
+        <legend>Gender</legend>
+        <select name="Gender">
+            <optgroup>
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </optgroup>
+            <optgroup label="other">
+                <option value="other">other</option>
+            </optgroup>
+        </select>
+    </fieldset>
+</body>
+
+</html>

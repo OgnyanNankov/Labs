@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+    color: black;
+}
+div{
+    background-color: red;
+    color: white;
+    /*забележете дали свойството border се наследява, така както color*/
+    border: 5px solid green;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Лични данни</legend>
+            <div>Име: <input type="text" name="FirstName" placeholder="малко име, на латиница"></div>
+            <div>Име: <input type="text" name="LastName" placeholder="фамилия, на латиница"></div>
+            <div>Пол:
+                <label for="male">мъж</label><input id="male" type="radio" name="Gender" value="male">
+                <label for="female">жена</label><input id="female" type="radio" name="Gender" value="female">
+            </div>
+        </fieldset>
+        <p><label for="Comment">Коментар:</label></p>
+        <textarea id="Comment" name="Comment" rows="2" cols="20">
+  </textarea>
+        <div> <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

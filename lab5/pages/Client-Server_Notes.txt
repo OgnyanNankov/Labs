@@ -1,0 +1,14 @@
+ISP: Internet Service Provider 
+
+Web Site == a set of Web Pages (Web Documents)
+  
+HTTP: Hypertext Transfer Protocol
+
+IP 
+192.168 => Local Address
+127.0.0.1 => текущата машина / компютърът, на който работим 
+
+DNS: Domain Name Server
+
+URL: Uniform Resource Locator
+ 

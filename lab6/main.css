@@ -1,0 +1,21 @@
+.flag{
+    display: inline-block;
+    line-height: 2em;
+    width: 20em;
+    border: .2em solid #333;
+}
+.flag>span{
+    display: block;
+}
+.bg>span:nth-child(1){
+    background: white;
+    color: #CCC;
+}
+.bg>span:nth-child(2){
+    background: green;
+    color: #CCC;
+}
+.bg>span:nth-child(3){
+    background: red;
+    color: #CCC;
+}
